@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #01143F !important;
+    font-family: Inter;
+}
+
+body {
+    background-color: #01143F;
+    font-family: Roboto Slab;
+}
+
+#carouselHero .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+  
+#carouselHero .carousel-item:before {
+    content: "";
+    background-image:
+      linear-gradient(
+        to bottom,
+        transparent, rgba(0,0,0,0.5)
+      );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: #01143F;
+    border-radius: 50%;
+}
